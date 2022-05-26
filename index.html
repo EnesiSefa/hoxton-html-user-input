@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <form class="box">
+      <h1>Hey there!</h1>
+      <label class="name">
+        <p>What's your name?</p>
+        <input
+          type="text"
+          name="name"
+          minlength="1"
+          maxlength="20"
+          placeholder="Enter your name"
+        />
+      </label>
+      <label class="email">
+        <p>What's your email address?</p>
+        <input
+          type="email"
+          name="email"
+          placeholder="Enter your email address"
+        />
+      </label>
+      <label class="services">
+        <p>What services are looking for?</p>
+        <select name="services" id="">
+          <option>choose a service</option>
+          <option>cleaning</option>
+          <option>washing</option>
+          <option>drying</option>
+        </select>
+      </label>
+      <label>
+        <p>What is your budget?</p>
+        <select name="budget" id="">
+          <option value="">budget</option>
+          <option>100$</option>
+          <option>200$</option>
+          <option>300$</option>
+        </select>
+      </label>
+      <label
+        ><p>Anything else you'd like to tell us?</p>
+        <textarea name="" id="" cols="25" rows="2"></textarea>
+      </label>
+      <label>i agree with the T&Cs.<input type="checkbox"></label>
+
+      <button>Submit</button>
+    </form>
+  </body>
+</html>

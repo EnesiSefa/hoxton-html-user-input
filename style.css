@@ -1,0 +1,17 @@
+body {
+  display: grid;
+  place-items: center;
+}
+
+.box {
+  display: grid;
+  box-shadow: 0px 0px 6px 1px rebeccapurple;
+  grid-gap: 2px;
+  padding: 10px;
+  gap: 10px;
+  }
+
+
+.box h1{
+    color: rebeccapurple;
+}
